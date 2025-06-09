@@ -1,0 +1,16 @@
+# Core dependencies
+gradio
+gradio_client
+qwen-omni-utils
+librosa
+ffmpeg
+ffmpeg-python
+soundfile
+modelscope_studio
+transformers
+accelerate
+av
+
+# Optional dependency
+# Uncomment the following line if you need flash-attn
+# flash-attn==2.7.4.post1

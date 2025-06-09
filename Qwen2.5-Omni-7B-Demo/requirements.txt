@@ -1,0 +1,4 @@
+oss2
+modelscope_studio
+openai
+soundfile
