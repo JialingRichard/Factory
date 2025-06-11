@@ -126,7 +126,7 @@ def video_inference(video_path, prompt, sys_prompt):
     return text, audio
 
 
-video_path = "https://qianwen-res.oss-cn-beijing.aliyuncs.com/Qwen2.5-Omni/draw.mp4"
+video_path = "/home/chen/dev/Factory/img/testmy.mp4"
 system_prompt = "You are Qwen, a virtual human developed by the Qwen Team, Alibaba Group, capable of perceiving auditory and visual inputs, as well as generating text and speech."
 
 torch.cuda.reset_peak_memory_stats()
