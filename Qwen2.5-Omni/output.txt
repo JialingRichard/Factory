@@ -1,0 +1,20 @@
+blue_on_red_0001.jpg	A blue cube is on top of a red cube.
+blue_on_red_0002.jpg	A blue cube is on top of a red rectangular prism.
+blue_on_red_0003.jpg	A blue rectangular prism is on top of a red rectangular prism.
+blue_on_red_0004.jpg	A blue cube is on top of a red cube.
+blue_on_red_0005.jpg	A blue cube is on top of a red cube.
+blue_on_red_0006.jpg	A blue rectangular prism is on top of a red rectangular prism.
+blue_on_red_0007.jpg	A blue cube is on top of a red cube.
+blue_on_red_0008.jpg	A blue cube is on top of a red rectangular prism.
+blue_on_red_0009.jpg	A blue cube is on top of a red cube.
+blue_on_red_0010.jpg	A red cube is on top of a blue cube.
+red_on_blue_0001.jpg	A red cube is on top of a blue cube.
+red_on_blue_0002.jpg	A red cube is on top of a blue cube.
+red_on_blue_0003.jpg	A red cube is on top of a blue cube.
+red_on_blue_0004.jpg	A red rectangular block is on top of a blue rectangular block.
+red_on_blue_0005.jpg	A red cube is on top of a blue cube.
+red_on_blue_0006.jpg	A red rectangular block is on top of a blue triangular block.
+red_on_blue_0007.jpg	A red rectangular block is on top of a blue square block.
+red_on_blue_0008.jpg	A red cube is on top of a blue cube.
+red_on_blue_0009.jpg	A red cube is on top of a blue cube.
+red_on_blue_0010.jpg	A red rectangular block is on top of a blue square block.

@@ -14,7 +14,7 @@ import os
 import gc
 
 
-def load_model(model_name="./models--Qwen--Qwen2.5-Omni-3B/snapshots/f75b40e3da2003cdd6e1829b1f420ca70797c34e"):
+def load_model(model_name="models--Qwen--Qwen2.5-Omni-3B"):
     """加载本地模型和处理器（使用 FP16 减少显存占用）"""
     os.environ["PYTORCH_CUDA_ALLOC_CONF"] = "expandable_segments:True,max_split_size_mb:128"
 
@@ -168,7 +168,7 @@ def main():
     parser.add_argument('--image', type=str, required=True, help='图片路径')
     parser.add_argument('--prompt', type=str, default="Please describe what you see in the image.", help='输入提示词')
     parser.add_argument('--model', type=str,
-                        default="./models--Qwen--Qwen2.5-Omni-3B/snapshots/f75b40e3da2003cdd6e1829b1f420ca70797c34e",
+                        default="Qwen/Qwen2.5-Omni-3B",
                         help='模型名称或本地模型路径')
     parser.add_argument('--max_new_tokens', type=int, default=10, help='生成最大 token 数')
 
@@ -193,9 +193,14 @@ def main():
         import traceback
         traceback.print_exc()
 
-
+import time
 if __name__ == "__main__":
     main()
+    
+    print("done")
+    
+    # sleep
+    time.sleep(1000)
 
 # 命令行调用示例：
 # python model_infer_single.py --image ./image_test/BlueUp4.jpg --prompt "This is the workspace of a robotic arm. Based on the image, describe the current scene and infer a reasonable sequence of actions to complete the task: Pick up the green cube."
